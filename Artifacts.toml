@@ -1,22 +1,218 @@
 [[HelloWorldCUDA]]
-arch = "x86_64"
-cuda = "13.0"
-git-tree-sha1 = "2326bbcdc0ae591006d4dfd0910265e6a8c5c408"
+arch = "i686"
+cuda = "none"
+git-tree-sha1 = "83f331c5e3cafb144e53c6339a1476edf0de61e8"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[HelloWorldCUDA.download]]
-    sha256 = "87b51fd94146eaaf470d7424334dc8cb82d030a08e16578d43bf0b68ec288764"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.0+0/HelloWorldCUDA.v1.0.0.x86_64-linux-gnu-cuda+13.0.tar.gz"
+    sha256 = "9b2fabff86316d4f8e73e86498aba4694987872484e85f7d77e9fc1cdf97de24"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.i686-linux-gnu-cuda+none.tar.gz"
+[[HelloWorldCUDA]]
+arch = "x86_64"
+cuda = "none"
+git-tree-sha1 = "d6db601a25e8a2586a88f07158221b55892ab546"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[HelloWorldCUDA.download]]
+    sha256 = "fc3ce1477b644d0ead994e633e304de751348f78d952f84382caa737cc20f6ca"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.x86_64-linux-gnu-cuda+none.tar.gz"
+[[HelloWorldCUDA]]
+arch = "aarch64"
+cuda = "none"
+git-tree-sha1 = "8461862298db78faf27f879ae6b5b6f49455592e"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[HelloWorldCUDA.download]]
+    sha256 = "26514ffb587df8d8eee2716ecf38f46b8490829b3d14f6ea992c61a54b51b5ff"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.aarch64-linux-gnu-cuda+none.tar.gz"
+[[HelloWorldCUDA]]
+arch = "armv6l"
+call_abi = "eabihf"
+cuda = "none"
+git-tree-sha1 = "4151f710af9fd413ee5b4cf6ba634832dcd84b68"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[HelloWorldCUDA.download]]
+    sha256 = "d25fcbdb5c2218c5f8c1931692127380e791878aa453ccc031d873f3a71611eb"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.armv6l-linux-gnueabihf-cuda+none.tar.gz"
+[[HelloWorldCUDA]]
+arch = "armv7l"
+call_abi = "eabihf"
+cuda = "none"
+git-tree-sha1 = "ed95aae972717f02640f7ff6fcc11ba1e1f0c05c"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[HelloWorldCUDA.download]]
+    sha256 = "5750ce3723be86960118111e4da8481c252edb77e9f2229bd1d417691b4c752d"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.armv7l-linux-gnueabihf-cuda+none.tar.gz"
+[[HelloWorldCUDA]]
+arch = "powerpc64le"
+cuda = "none"
+git-tree-sha1 = "7244b447696175bb411b5f0c9a6adeadd3cf1441"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[HelloWorldCUDA.download]]
+    sha256 = "61d795e8dc7d5c74aa5e5c0761ccbd464b9c442f9c8806655641dde69ea3f843"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.powerpc64le-linux-gnu-cuda+none.tar.gz"
+[[HelloWorldCUDA]]
+arch = "riscv64"
+cuda = "none"
+git-tree-sha1 = "cc90cbb30fe9f05a1c5eeb7bf32b3c34e0c33382"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[HelloWorldCUDA.download]]
+    sha256 = "57e760dd8d8945d6c693924aec1aeb4278c4a14f169ad43df3f8ebab0b66628e"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.riscv64-linux-gnu-cuda+none.tar.gz"
+[[HelloWorldCUDA]]
+arch = "i686"
+cuda = "none"
+git-tree-sha1 = "eebf7e3b26e94d644912848cf526485d43799e48"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[HelloWorldCUDA.download]]
+    sha256 = "8e4e08860c756be6c0168798647586381c95e5e2144233461d973ea822c47f22"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.i686-linux-musl-cuda+none.tar.gz"
+[[HelloWorldCUDA]]
+arch = "x86_64"
+cuda = "none"
+git-tree-sha1 = "dcbb1b36367ea960bcdd36ce11a300ed7aa72e72"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[HelloWorldCUDA.download]]
+    sha256 = "d6e8d248d10bb981bdb96d764f8b01947d0ad2e05048a6509439418eaf49d237"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.x86_64-linux-musl-cuda+none.tar.gz"
+[[HelloWorldCUDA]]
+arch = "aarch64"
+cuda = "none"
+git-tree-sha1 = "7fb2121b07d24827f2c471f011fc4e0f6ca573ec"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[HelloWorldCUDA.download]]
+    sha256 = "3e5a207a7d29c98521c0e9f30f3d1c270670a903ef5658b2b24cb4ea93044e9c"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.aarch64-linux-musl-cuda+none.tar.gz"
+[[HelloWorldCUDA]]
+arch = "armv6l"
+call_abi = "eabihf"
+cuda = "none"
+git-tree-sha1 = "d6a571de9f5223586c8a4ffa20671e49ab64a57d"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[HelloWorldCUDA.download]]
+    sha256 = "25dc3a3d050b721bbeeccfed3586070b4e5dfceb1061d3423e4b93178099948e"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.armv6l-linux-musleabihf-cuda+none.tar.gz"
+[[HelloWorldCUDA]]
+arch = "armv7l"
+call_abi = "eabihf"
+cuda = "none"
+git-tree-sha1 = "59b6922304d254b55d03700aa7fabcbd25ff8765"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[HelloWorldCUDA.download]]
+    sha256 = "833b35634022e2be44d829772509b144dd5de1272c2d81cadaf460e875a0d639"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.armv7l-linux-musleabihf-cuda+none.tar.gz"
+[[HelloWorldCUDA]]
+arch = "x86_64"
+cuda = "none"
+git-tree-sha1 = "67c3ac6f4e6412e2bb28bef442f9e55a038037ac"
+lazy = true
+os = "macos"
+
+    [[HelloWorldCUDA.download]]
+    sha256 = "591487899b599bec984f23d6c8c235c72a33196fbc4a75c757c63da2787bcc25"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.x86_64-apple-darwin-cuda+none.tar.gz"
+[[HelloWorldCUDA]]
+arch = "aarch64"
+cuda = "none"
+git-tree-sha1 = "d9c71d3c5a6c219e120b512b8c7e08acf05bdab7"
+lazy = true
+os = "macos"
+
+    [[HelloWorldCUDA.download]]
+    sha256 = "d0f25f032b81bfcaef65bfc5bc3747262bfb89fd8785f44bd33d39b9988a5769"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.aarch64-apple-darwin-cuda+none.tar.gz"
+[[HelloWorldCUDA]]
+arch = "x86_64"
+cuda = "none"
+git-tree-sha1 = "7d41032bba746fa1f65377736444e947345db8ff"
+lazy = true
+os = "freebsd"
+
+    [[HelloWorldCUDA.download]]
+    sha256 = "53f728df83fc815cdbba8ca3abc465347305ea9e111da9be714e0797d3ddbe84"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.x86_64-unknown-freebsd-cuda+none.tar.gz"
+[[HelloWorldCUDA]]
+arch = "aarch64"
+cuda = "none"
+git-tree-sha1 = "8572fd8225514b3571d4823e9bf346ecb4c067d8"
+lazy = true
+os = "freebsd"
+
+    [[HelloWorldCUDA.download]]
+    sha256 = "35f09b5df6891bd56f9e774fe6187e956d9a547defa36b47e9fc63c4cb06cab9"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.aarch64-unknown-freebsd-cuda+none.tar.gz"
+[[HelloWorldCUDA]]
+arch = "i686"
+cuda = "none"
+git-tree-sha1 = "92d58b69633d59d0e44989ff08ea2d1899788031"
+lazy = true
+os = "windows"
+
+    [[HelloWorldCUDA.download]]
+    sha256 = "14ee6c7e4108cfd9e03407d73a460af7600f279491a055986aae6c35e7c5f348"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.i686-w64-mingw32-cuda+none.tar.gz"
+[[HelloWorldCUDA]]
+arch = "x86_64"
+cuda = "none"
+git-tree-sha1 = "b10a5bd473663ff0268c9ccf512c2150500af567"
+lazy = true
+os = "windows"
+
+    [[HelloWorldCUDA.download]]
+    sha256 = "8b80ea14f2d4136d78b72358bc484525829bc6d9d7e075bfda5cf86b1d71b4d0"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.x86_64-w64-mingw32-cuda+none.tar.gz"
+[[HelloWorldCUDA]]
+arch = "x86_64"
+cuda = "13.0"
+git-tree-sha1 = "19f19bd5c2e6369bf8084a6224bddf7b6b6850f4"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[HelloWorldCUDA.download]]
+    sha256 = "97d429ae1e60a8af15d8fcce9f1bb82ca1bbd18e2725263dd81ff424e1e6617c"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.x86_64-linux-gnu-cuda+13.0.tar.gz"
 [[HelloWorldCUDA]]
 arch = "aarch64"
 cuda = "13.0"
-git-tree-sha1 = "c4d1dc9eb1a571b5a4acaf094185bf483fdf5d2f"
+git-tree-sha1 = "d3fe07f5b22da5b47a0832aeedd694bd573dbcc7"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[HelloWorldCUDA.download]]
-    sha256 = "30f90193769d06bda44888691ca7df7a9b5dc7cfc26f97ba8c46174e744c15b5"
-    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.0+0/HelloWorldCUDA.v1.0.0.aarch64-linux-gnu-cuda+13.0.tar.gz"
+    sha256 = "e840c32c70e305115cf241309b1841b91e13f43c2c1832b6ca9739f867c624b5"
+    url = "https://github.com/JuliaBinaryWrappers/HelloWorldCUDA_jll.jl/releases/download/HelloWorldCUDA-v1.0.1+0/HelloWorldCUDA.v1.0.1.aarch64-linux-gnu-cuda+13.0.tar.gz"
